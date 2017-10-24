@@ -28,7 +28,7 @@ subjects:
 " >> kubernetes-dashboard.yaml
 ```
 ```
-kubectl apply -f kubernetes-dashboard.yml --validate=false
+kubectl apply -f kubernetes-dashboard.yaml --validate=false
 ```
 
 This will update the permissions to allow for `kube-dashboard` to work on the setup. This is not recommended for production systems. Source: https://github.com/kubernetes/dashboard/issues/1803#issuecomment-335533274
