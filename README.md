@@ -4,14 +4,8 @@ These are the edits that I believe need to be made to the blog post at: https://
 
 1. Update the output to the `kubeadm init` command to the following (or similar), which is the output of version 1.8.1:
 
-```
-...
-  mkdir -p $HOME/.kube
-  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-  sudo chown $(id -u):$(id -g) $HOME/.kube/config
-...
+https://raw.githubusercontent.com/ericstoekl/kubernetes-blog-edits/master/output_v1.8.1.txt
 
-```
 
 2. `kube-dashboard` permissions changes are needed. The user should:
 
